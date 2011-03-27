@@ -1,0 +1,12 @@
+TODO
+----
+
+ - Add the Schimmy optimization 
+  
+   Jimmy Lin and Chris Dyer, "Data-Intensive Text Processing with MapReduce", University of Maryland, College Park, April 11, 2010
+   Chapter 5. Graph Algorithms, Section 5.3 PageRank, pag. 102
+   http://www.umiacs.umd.edu/~jimmylin/Cloud9/docs/content/pagerank.html
+   https://github.com/lintool/Cloud9/blob/master/src/dist/edu/umd/cloud9/example/pagerank/RunPageRankSchimmy.java
+   http://www.umiacs.umd.edu/~jimmylin/publications/Lin_Schatz_MLG2010.pdf
+   http://www.cloudera.com/blog/2010/11/do-the-schimmy-efficient-large-scale-graph-analysis-with-hadoop/
+   http://www.cloudera.com/blog/2010/11/do-the-schimmy-efficient-large-scale-graph-analysis-with-hadoop-part-2/
