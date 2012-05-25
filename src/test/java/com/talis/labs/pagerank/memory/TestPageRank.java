@@ -32,7 +32,7 @@ public class TestPageRank extends TestCase {
 		assertEquals (result1.keySet().size(), result2.keySet().size() );
 		for (Node node : result1.keySet()) {
 			assertTrue( result2.containsKey(node) );
-			assertEquals ( 0.000001d, result1.get(node), result2.get(node) );
+			assertEquals ( result1.get(node), result2.get(node), 0.000001d );
 		}
 		
 		print(result1);
